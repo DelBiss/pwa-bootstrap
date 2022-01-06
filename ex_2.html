@@ -36,8 +36,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav nav-pills ms-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Exercice sur les utilitaires</a></li>
-                <li class="nav-item "><a href="ex_2.html" class="nav-link">Exercice du panier</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link " aria-current="page">Exercice sur les utilitaires</a></li>
+                <li class="nav-item "><a href="#" class="nav-link active">Exercice du panier</a></li>
                 <li class="nav-item "><a href="#" class="nav-link disabled">Exercice article de blog</a></li>
             
               </ul>
@@ -46,8 +46,22 @@
           </div>
         </nav>
   <main>
-    <div class="container-md">
-      <h2 class="text-center text-uppercase my-5">Exercice 1, on s'éveile</h2>
+    <div class="container-md my-5">
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        Button with data-bs-target
+      </button>
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
