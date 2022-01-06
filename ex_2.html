@@ -48,17 +48,49 @@
   <main>
     <div class="container-md my-5">
       <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-        Button with data-bs-target
+        Mon panier
       </button>
       
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <h1 class="offcanvas-title" id="offcanvasExampleLabel">
+            Panier
+          </h1>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
+          <div class="fw-bold">
+            Sous-total: 9,00 $
+          </div>
+          <table class="table mt-3">
+            <thead>
+              <tr>
+                <th scope="col">Article</th>
+                <th scope="col">Quantité</th>
+                <th scope="col">Prix</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Café</th>
+                <td>1</td>
+                <td>2,25 $</td>
+              </tr>
+              <tr>
+                <th scope="row">Jus d'orange</th>
+                <td>1</td>
+                <td>1,75 $</td>
+              </tr>
+              <tr>
+                <th scope="row">Tartine au chocolat</th>
+                <td>1</td>
+                <td>2,50 $</td>
+              </tr>
+            </tbody>
+          </table>
           <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+            <button class="btn btn-secondary">Modifier les quantités</button>
+            <button class="btn btn-primary">Payer</button>
           </div>
         </div>
       </div>
